@@ -1,3 +1,10 @@
+import './index.css';
 import ReactDOM from 'react-dom';
-const el = document.getElementById('root');
-ReactDOM.render('Hey react!', el);
+import React from 'react';
+
+
+ReactDOM.render(
+  <div>
+    Hey react with JSX
+  </div>, 
+  document.getElementById('root') );
