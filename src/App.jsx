@@ -11,14 +11,14 @@ export default _ => (
     <div className="App">
         <h1>React Fundaments</h1>
         <div className="Cards">
-            <Card title="#04 - Randon">
+            <Card title="#04 - Randon" color="blue">
                 <Random min={2} max={8}></Random>
                 <Random min={2} max={8}></Random>
             </Card>
-            <Card title="#03 - Fragments">
+            <Card title="#03 - Fragments" color="green">
                 <Fragment />
             </Card>
-            <Card title="#02 - Grades">
+            <Card title="#02 - Grades" color="#E34F56">
                 <WithParameter title="Grades" studant="Peter" grade={9.8} />
                 <WithParameter title="" studant="Mary" grade={9.5} />
             </Card>
