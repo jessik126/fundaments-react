@@ -8,11 +8,15 @@ import Fragment from './components/basics/Fragment';
 import Random from "./components/basics/Random";
 import Family from "./components/basics/Family";
 import FamilyMember from "./components/basics/FamilyMember";
+import StudentsList from "./components/repet/StudentsList";
 
 export default _ => (
     <div className="App">
         <h1>React Fundaments</h1>
         <div className="Cards">
+            <Card title="#06 - Repeat">
+                <StudentsList></StudentsList>
+            </Card>
             <Card title="#05 - Component with Family" color="#006879">
                 <Family lastname="Silva">
                     <FamilyMember name="Pedro" />
