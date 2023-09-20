@@ -14,10 +14,10 @@ export default _ => (
         <h1>React Fundaments</h1>
         <div className="Cards">
             <Card title="#05 - Component with Family" color="#006879">
-                <Family lastname="Ferreira">
+                <Family lastname="Silva">
                     <FamilyMember name="Pedro" />
-                    {/* <FamilyMember name="Ana" />
-                    <FamilyMember name="Gustavo" /> */}
+                    <FamilyMember name="Ana" />
+                    <FamilyMember name="Gustavo" />
                 </Family>
             </Card>
             <Card title="#04 - Randon" color="blue">
