@@ -1,5 +1,4 @@
 export default function WithParameter(props){
-    console.log(props);
     const status = props.grade >= 7 ? 'Approved' : 'Not approved';
     return (
         <>

@@ -1,5 +1,5 @@
 import React from "react";
-import students from '../../data/student.js';
+import students from '../../data/students.js';
 
 export default props => {
     const studentlist = students.map(student => {
