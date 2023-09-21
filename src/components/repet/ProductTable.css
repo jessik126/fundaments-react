@@ -1,0 +1,21 @@
+.ProductTable table {
+    width: 100%;
+    text-align: center;
+}
+
+.ProductTable th {
+    background-color: aqua;
+}
+
+.ProductTable .Par{
+    background-color: #ddd;
+}
+
+.ProductTable .Impar{
+    background-color: #ccc;
+}
+
+.ProductTable #Price{
+    text-align: right;
+    padding-right: 10px;
+}

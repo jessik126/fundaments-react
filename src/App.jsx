@@ -9,11 +9,15 @@ import Random from "./components/basics/Random";
 import Family from "./components/basics/Family";
 import FamilyMember from "./components/basics/FamilyMember";
 import StudentsList from "./components/repet/StudentsList";
+import ProductTable from "./components/repet/ProductTable";
 
 export default _ => (
     <div className="App">
         <h1>React Fundaments</h1>
         <div className="Cards">
+            <Card title="#07 - Repeat Table">
+                <ProductTable/>
+            </Card>
             <Card title="#06 - Repeat">
                 <StudentsList></StudentsList>
             </Card>
