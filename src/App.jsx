@@ -11,6 +11,7 @@ import FamilyMember from "./components/basics/FamilyMember";
 import StudentsList from "./components/repet/StudentsList";
 import ProductTable from "./components/repet/ProductTable";
 import EvenOrOdd from "./components/Conditional/EvenOrOdd";
+import UserInfo from "./components/Conditional/UserInfo";
 
 export default _ => (
     <div className="App">
@@ -18,6 +19,9 @@ export default _ => (
         <div className="Cards">
             <Card title="#07 - Conditional Render" color="purple">
                 <EvenOrOdd number={21}></EvenOrOdd>
+                <UserInfo user={{name: 'Fernando'}}></UserInfo>
+                <UserInfo user={{}}/>
+                <UserInfo />
             </Card>
             <Card title="#07 - Repeat Table" color="pink">
                 <ProductTable />
