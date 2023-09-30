@@ -5,7 +5,7 @@ export default props => {
     const studentlist = students.map(student => {
         return (
             <li key={student.id}>
-                {student.id}) {student.name} -> {student.grade}
+                {student.id}) {student.name} ➝ {student.grade}
             </li>
         )
     })
