@@ -8,18 +8,21 @@ import Fragment from './components/basics/Fragment';
 import Random from "./components/basics/Random";
 import Family from "./components/basics/Family";
 import FamilyMember from "./components/basics/FamilyMember";
-import StudentsList from "./components/repet/StudentsList";
-import ProductTable from "./components/repet/ProductTable";
-import EvenOrOdd from "./components/Conditional/EvenOrOdd";
-import UserInfo from "./components/Conditional/UserInfo";
+import StudentsList from "./components/repeat/StudentsList";
+import ProductTable from "./components/repeat/ProductTable";
+import EvenOrOdd from "./components/conditional/EvenOrOdd";
+import UserInfo from "./components/conditional/UserInfo";
 import DirectFather from "./components/communication/DirectFather";
 import IndirectFather from "./components/communication/IndirectFather";
+import Input from "./components/forms/Input";
 
 export default _ => (
     <div className="App">
         <h1>React Fundaments</h1>
         <div className="Cards">
-
+            <Card title="#11 - Controlled Component (Input)" color="yellowgreen">
+                <Input />
+            </Card>
             <Card title="#10 - Indirect Communication" color="cian">
                 <IndirectFather />
             </Card>
