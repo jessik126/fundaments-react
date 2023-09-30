@@ -13,18 +13,23 @@ import ProductTable from "./components/repet/ProductTable";
 import EvenOrOdd from "./components/Conditional/EvenOrOdd";
 import UserInfo from "./components/Conditional/UserInfo";
 import DirectFather from "./components/communication/DirectFather";
+import IndirectFather from "./components/communication/IndirectFather";
 
 export default _ => (
     <div className="App">
         <h1>React Fundaments</h1>
         <div className="Cards">
-        <Card title="#09 - Direct Communication" color="brown">
-            <DirectFather/>
-</Card>
+
+            <Card title="#10 - Indirect Communication" color="cian">
+                <IndirectFather />
+            </Card>
+            <Card title="#09 - Direct Communication" color="brown">
+                <DirectFather />
+            </Card>
             <Card title="#08 - Conditional Render" color="purple">
                 <EvenOrOdd number={21}></EvenOrOdd>
-                <UserInfo user={{name: 'Fernando'}}></UserInfo>
-                <UserInfo user={{}}/>
+                <UserInfo user={{ name: 'Fernando' }}></UserInfo>
+                <UserInfo user={{}} />
                 <UserInfo />
             </Card>
             <Card title="#07 - Repeat Table" color="pink">
