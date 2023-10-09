@@ -1,0 +1,15 @@
+.Counter input{
+    font-size: 1rem;
+    width: 60px;
+}
+
+.Counter button{
+    margin: 10px;
+    height:  30px;
+    width: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #4040af;
+    color: white;
+    font-size: 1.4rem;
+}

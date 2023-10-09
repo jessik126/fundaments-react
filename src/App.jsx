@@ -15,11 +15,15 @@ import UserInfo from "./components/conditional/UserInfo";
 import DirectFather from "./components/communication/DirectFather";
 import IndirectFather from "./components/communication/IndirectFather";
 import Input from "./components/forms/Input";
+import Counter from "./components/counter/Counter";
 
 export default _ => (
     <div className="App">
         <h1>React Fundaments</h1>
         <div className="Cards">
+            <Card title="#12 - Counter" color="#424242">
+                <Counter initialNumber={10}/>
+            </Card>
             <Card title="#11 - Controlled Component (Input)" color="yellowgreen">
                 <Input />
             </Card>
