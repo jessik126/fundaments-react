@@ -16,13 +16,17 @@ import DirectFather from "./components/communication/DirectFather";
 import IndirectFather from "./components/communication/IndirectFather";
 import Input from "./components/forms/Input";
 import Counter from "./components/counter/Counter";
+import Mega from "./components/mega/Mega";
 
 export default _ => (
     <div className="App">
         <h1>React Fundaments</h1>
         <div className="Cards">
+            <Card title="#13 - Challenge Mega " color="lightcoral">
+                <Mega amount={6}/>
+            </Card>
             <Card title="#12 - Counter" color="#424242">
-                <Counter initialNumber={10}/>
+                <Counter initialNumber={10} />
             </Card>
             <Card title="#11 - Controlled Component (Input)" color="yellowgreen">
                 <Input />
