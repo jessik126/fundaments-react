@@ -1,0 +1,46 @@
+.Mega label{
+    margin-right: 10px;
+}
+
+.Mega input {
+    font-size: 1rem;
+    width: 50px;
+}
+
+.Mega #numbers{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.numberCircle {
+    font: 20px Arial, sans-serif;
+
+    width: 3em;
+    height: 3em;
+    box-sizing: initial;
+    margin: 2px;
+
+    background: #fff;
+    border: 0.1em solid #666;
+    color: #666;
+    text-align: center;
+    border-radius: 50%;    
+
+    line-height: 3em;
+    box-sizing: content-box;   
+}
+
+.Ball {
+    margin: 4px;
+    padding: 2px;
+    width: 40px;
+    height: 40px;
+    box-shadow: 1px 1px #333;
+ 
+    border: solid #aaa;
+    border-radius: 100%;
+ 
+    font-size: 1.4rem;
+    color: #fff;
+    text-shadow: 1px 1px #000;    
+}
